@@ -1,0 +1,40 @@
+# Python / development
+__pycache__/
+*.py[cod]
+.venv/
+.venv-desktop/
+*.egg-info/
+.coverage
+.pytest_cache/
+
+# Credentials and user input
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+/inbox.txt
+
+# Personal tasks, settings, original notices, logs and cached model output
+/data/
+/evidence/
+/.playwright-mcp/
+/.demo-data/
+/.api-acceptance/
+/.desktop-check/
+
+# Build products (build locally; do not upload through source commits)
+/build/
+/dist/
+*.exe
+
+# Local coursework reports and personal operation records
+*.docx
+*.pdf
+/REPORT.md
+/REPORT_GUIDE.md
+/REAL_TEST_CHECKLIST.md
+/OPERATION_GUIDE.md
+/docs/*
+!/docs/ARCHITECTURE.md
+!/docs/DATA_MODEL.md
+!/docs/TESTING.md

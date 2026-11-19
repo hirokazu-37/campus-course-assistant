@@ -1,0 +1,2 @@
+# 已在 Windows / Python 3.14.3 验证；CLI 和定时提醒仍仅需标准库。
+streamlit==1.55.0
