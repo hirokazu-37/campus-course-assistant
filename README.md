@@ -108,7 +108,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\configure_sche
 
 ## 测试与验证范围
 
-2026年11月19日，从待上传源码导出不含个人数据的副本，在Windows / Python 3.14.3环境运行完整套件：**304项测试通过**。验证条件见[测试记录](docs/TESTING.md)。
+2026年11月21日，清理后的70个项目文件在Windows / Python 3.14.4、Streamlit 1.55.0环境重新验证：**304项测试全部通过，0失败、0跳过**。依赖安装在项目目录外，报告、缓存和个人数据不随源码发布。验证条件见[测试记录](docs/TESTING.md)。
 
 安装界面依赖后运行：
 
